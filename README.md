@@ -6,6 +6,7 @@ This project provides a real-time health and status monitor for a local Bitcoin 
 
 *   **Bitcoin Node Status:** Monitors sync status, block height, difficulty, mempool information, and peer connections.
 *   **ckpool Status:** Checks service health, log for errors, and displays mining statistics (users, workers, hashrate, shares).
+*   **Mempool Status:** Checks service health, log for errors, and displays current mempool status.
 *   **Bitaxe Miner Monitoring:** Automatically discovers and reports detailed information from connected Bitaxe miners, including hash rate, temperatures, uptime, and error rates.
 *   **Wallet Balance:** Displays the balance of your configured ckpool reward wallet.
 *   **Rich CLI Output:** Utilizes the `rich` library for a visually appealing and organized terminal output.
@@ -88,4 +89,5 @@ The script will display a real-time report in your terminal, updating every 10 s
 *   **`curl` errors for Bitaxe Miners:** Ensure your Bitaxe Miners are powered on, connected to the network, and their API endpoint (`http://MINER_IP/api/system/info`) is accessible.
 *   **`rich` rendering issues:** Ensure your terminal supports rich text and colors.
 
-<img width="1824" height="946" alt="517963799-266a0fba-9721-4a60-ad04-9ff77dad5cd2" src="https://github.com/user-attachments/assets/4057bacb-fb09-4f1e-a04a-59dfeee09f0e" />
+<img width="1824" height="946" alt="517963799-266a0fba-9721-4a60-ad04-9ff77dad5cd2" src="https://github.com/user-attachments/assets/db86bc55-b5d9-4338-a561-aeb0ab969872" />
+
