@@ -47,10 +47,12 @@ Follow these steps to get the Bitcoin Mining Monitor up and running:
 4.  **Assumptions:**
 
     you have installed bitcoin node using snap under a dedicated user - btc
-    
+
+    ```bash
     bitcoin node location - [BITCOIN_NODE_IP] /home/btc/snap/bitcoin-core
     bitcoin cli location - [BITCOIN_NODE_IP] /home/btc/snap/bitcoin-core/190/bin/bitcoin-cli
-
+    ```
+    
     you can ssh using public / private key onto [BITCOIN_NODE_IP] without password from you system where you are running this python script
     
 6.  **Configure Environment Variables:**
