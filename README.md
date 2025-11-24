@@ -1,6 +1,6 @@
-# Bitcoin Mining Monitor
+# Bitaxe Mining Network Monitor
 
-This project provides a real-time health and status monitor for a local Bitcoin mining setup. It gathers information from your Bitcoin Node, ckpool, and connected Bitaxe Miners, presenting it in a clear, dashboard-like command-line interface.
+This project provides a real-time health and status monitor for a local Bitcoin mining setup. It gathers information from your Bitcoin Node, ckpool, and all connected Bitaxe Miners, presenting it in a clear, dashboard-like command-line interface.
 
 ## Features
 
@@ -55,9 +55,9 @@ Follow these steps to get the Bitcoin Mining Monitor up and running:
 
     ```
     # Bitcoin Node Configuration
-    BITCOIN_NODE_IP=YOUR_BITCOIN_NODE_IP        # e.g., 192.168.1.110
-    BITCOIN_RPC_USER=YOUR_RPC_USERNAME          # e.g., ubuntu
-    BITCOIN_RPC_PASSWORD=YOUR_RPC_PASSWORD      # e.g., Mahadev@365
+    BITCOIN_NODE_IP=YOUR_BITCOIN_NODE_IP        # e.g., 192.168.1.1
+    BITCOIN_RPC_USER=YOUR_RPC_USERNAME          # e.g., btc
+    BITCOIN_RPC_PASSWORD=YOUR_RPC_PASSWORD      # e.g., XXXXXXX
     CKPOOL_REWARD_WALLET_ADDRESS=YOUR_CKPOOL_REWARD_WALLET_ADDRESS # e.g., bc1q...
     ```
 
