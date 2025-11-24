@@ -43,7 +43,11 @@ Follow these steps to get the Bitcoin Mining Monitor up and running:
     pip install -r requirements.txt
     ```
 
-4.  **Configure Environment Variables:**
+4.  **Assumptions:**
+
+    bitcoin node location - [ BITCOIN_NODE_IP] /home/btc/snap/bitcoin-core
+    
+6.  **Configure Environment Variables:**
 
     Create a `.env` file in the root directory of the project based on the `.env.example` file.
 
@@ -83,3 +87,5 @@ The script will display a real-time report in your terminal, updating every 10 s
 *   **`ckpool` service not found/running:** Verify that `ckpool` is properly installed and running as a systemd service on your Bitcoin Node.
 *   **`curl` errors for Bitaxe Miners:** Ensure your Bitaxe Miners are powered on, connected to the network, and their API endpoint (`http://MINER_IP/api/system/info`) is accessible.
 *   **`rich` rendering issues:** Ensure your terminal supports rich text and colors.
+
+<img width="1824" height="946" alt="517963799-266a0fba-9721-4a60-ad04-9ff77dad5cd2" src="https://github.com/user-attachments/assets/4057bacb-fb09-4f1e-a04a-59dfeee09f0e" />
